@@ -15,3 +15,22 @@
   width: 500px;
 
 }
+.operations-buttons button {
+  background-color: #98C897;
+
+}
+
+.buttons-container .display {
+  display: flex;
+  background-color: #399F38;
+  width: 25%;
+  height: 100px;
+  color: white;
+  
+}
+
+/* <div class="buttons-container display"> */
+
+/* <div class="buttons-container"> */
+  /* <div> */
+    /* <div class="display> */
