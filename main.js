@@ -1,13 +1,15 @@
 // const button = document.querySelectorAll('[data-number]')
 
-let display = document.querySelector(".display")
-display.innerHTML = ""
+let display = document.querySelector(".display");
 
 
 
 let buttonsArray = document.querySelectorAll("button")
+
 for (let key of buttonsArray) {
+    
     key.addEventListener('click', event => {
+        
         if (event.target.innerHTML === '=') {
             console.log(display.innerHTML)
             display.innerHTML = eval(display.innerHTML);

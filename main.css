@@ -1,12 +1,13 @@
 
 .buttons-container button {
-  width: 25%;
+  width: 24%;
   border-color: white;
   border-width: 1px;
   border-style: solid;
   height: 100px;
   background-color: #399F38;
   color: white;
+  font-size: 20px;
 }
 
 .buttons-container, .operations-buttons, .display{
@@ -21,7 +22,7 @@
 }
 
 .buttons-container .display {
-  display: flex;
+  display: grid;
   background-color: #399F38;
   width: 25%;
   height: 100px;
