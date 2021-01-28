@@ -1,13 +1,16 @@
+
 .buttons-container button {
   width: 25%;
-  border-color: black;
-  border-width: 2px;
+  border-color: white;
+  border-width: 1px;
   border-style: solid;
   height: 100px;
+  background-color: #399F38;
+  color: white;
 }
 
-.buttons-container, .operations-buttons{
-  display: flex;
+.buttons-container, .operations-buttons, .display{
+  display: block;
   flex-wrap: wrap;
   width: 500px;
 
